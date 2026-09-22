@@ -1,0 +1,49 @@
+# ============================
+# Папки, которые генерирует движок (можно спокойно удалять и пересобирать)
+# ============================
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+ 
+# То же самое для плагинов
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+ 
+# ============================
+# Visual Studio / Rider / VS Code
+# ============================
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+*.xcodeproj
+*.xcworkspace
+ 
+# ============================
+# Файлы операционной системы
+# ============================
+.DS_Store
+Thumbs.db
+ 
+# ============================
+# Готовые сборки / паки
+# ============================
+*.ipa
+*.apk
+Builds/
+Packaged/
+ 
+# ============================
+# Fab / Quixel Megascans — тяжёлые ассеты, скачиваются заново из Bridge/Fab,
+# смысла хранить в git нет (жрут квоту LFS)
+# ============================
+Content/Fab/Megascans/
+Content/Megascans/
+Content/MSPresets/
